@@ -1,0 +1,25 @@
+Distances from Q = (4, 4)
+--------------------------------
+P1 -> Distance = 1.0 , Class = B
+P2 -> Distance = 1.414 , Class = A
+P3 -> Distance = 1.414 , Class = A
+P4 -> Distance = 2.0 , Class = A
+P6 -> Distance = 3.606 , Class = B
+P5 -> Distance = 5.657 , Class = B
+
+KNN Classification
+-------------------
+K = 1
+Nearest neighbours: ['P1']
+Classes: ['B']
+Predicted Class: B
+
+K = 3
+Nearest neighbours: ['P1', 'P2', 'P3']
+Classes: ['B', 'A', 'A']
+Predicted Class: A
+
+K = 5
+Nearest neighbours: ['P1', 'P2', 'P3', 'P4', 'P6']
+Classes: ['B', 'A', 'A', 'A', 'B']
+Predicted Class: A
